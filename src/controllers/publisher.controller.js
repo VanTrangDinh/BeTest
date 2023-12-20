@@ -16,9 +16,9 @@ const options = {
   keyFileUrl:
     process.env.MQTT_KEY_URL ||
     'https://test-upload-image-file.s3.ap-southeast-1.amazonaws.com/back-end-exam/private_key.key',
-  caFilePath: 'path/to/root_ca.pem',
-  certFilePath: 'path/to/certificate.crt',
-  keyFilePath: 'path/to/private_key.key',
+  caFilePath: '../../certificates/root_ca.pem',
+  certFilePath: '../../certificates/certificate.crt',
+  keyFilePath: '../../certificates/private_key.key',
   clientId: 'mqtt-client',
   username: process.env.MQTT_USERNAME || 'your-username', // Nếu cần xác thực
   password: process.env.MQTT_PASSWORD || 'your-password', // Nếu cần xác thực
