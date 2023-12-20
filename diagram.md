@@ -20,7 +20,7 @@
 | affectedAreas: |                 |                  
 |    Number      |                 |                  
 | detectedTime:  |                 |                  
-|    Date        |                 |                 
+|    Date        |                 |               
 | comments: [Ref]|+----------------                 
 +----------------+                 
                                           
